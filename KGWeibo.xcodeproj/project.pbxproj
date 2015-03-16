@@ -19,6 +19,12 @@
 		C97701F91AB6BE8E006BC435 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C97701F71AB6BE8E006BC435 /* InfoPlist.strings */; };
 		C97701FB1AB6BE8E006BC435 /* KGWeiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C97701FA1AB6BE8E006BC435 /* KGWeiboTests.m */; };
 		C977021C1AB6BEF3006BC435 /* KGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C977021B1AB6BEF3006BC435 /* KGAppDelegate.m */; };
+		C977021F1AB6F9CF006BC435 /* KGTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C977021E1AB6F9CF006BC435 /* KGTabBarViewController.m */; };
+		C97702221AB6FAD8006BC435 /* KGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97702211AB6FAD8006BC435 /* KGHomeViewController.m */; };
+		C97702251AB6FAFC006BC435 /* KGMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97702241AB6FAFC006BC435 /* KGMessageViewController.m */; };
+		C97702281AB6FB20006BC435 /* KGProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97702271AB6FB20006BC435 /* KGProfileViewController.m */; };
+		C977022F1AB70596006BC435 /* KGDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C977022E1AB70596006BC435 /* KGDiscoverViewController.m */; };
+		C97702381AB7080F006BC435 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C97702371AB7080F006BC435 /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,18 @@
 		C97701FA1AB6BE8E006BC435 /* KGWeiboTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KGWeiboTests.m; sourceTree = "<group>"; };
 		C977021A1AB6BEF3006BC435 /* KGAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGAppDelegate.h; sourceTree = "<group>"; };
 		C977021B1AB6BEF3006BC435 /* KGAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGAppDelegate.m; sourceTree = "<group>"; };
+		C977021D1AB6F9CF006BC435 /* KGTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGTabBarViewController.h; sourceTree = "<group>"; };
+		C977021E1AB6F9CF006BC435 /* KGTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGTabBarViewController.m; sourceTree = "<group>"; };
+		C97702201AB6FAD8006BC435 /* KGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGHomeViewController.h; sourceTree = "<group>"; };
+		C97702211AB6FAD8006BC435 /* KGHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGHomeViewController.m; sourceTree = "<group>"; };
+		C97702231AB6FAFC006BC435 /* KGMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGMessageViewController.h; sourceTree = "<group>"; };
+		C97702241AB6FAFC006BC435 /* KGMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGMessageViewController.m; sourceTree = "<group>"; };
+		C97702261AB6FB20006BC435 /* KGProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGProfileViewController.h; sourceTree = "<group>"; };
+		C97702271AB6FB20006BC435 /* KGProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGProfileViewController.m; sourceTree = "<group>"; };
+		C977022D1AB70596006BC435 /* KGDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGDiscoverViewController.h; sourceTree = "<group>"; };
+		C977022E1AB70596006BC435 /* KGDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGDiscoverViewController.m; sourceTree = "<group>"; };
+		C97702361AB7080F006BC435 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		C97702371AB7080F006BC435 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,12 +164,15 @@
 		C97702041AB6BEA4006BC435 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C97702291AB70578006BC435 /* Discover(发现) */,
 				C97702051AB6BEA4006BC435 /* Home(首页) */,
 				C97702091AB6BEA4006BC435 /* Main(主要) */,
 				C977020D1AB6BEA4006BC435 /* Message(消息) */,
 				C97702111AB6BEA4006BC435 /* Other */,
 				C97702121AB6BEA4006BC435 /* Pofile(个人信息) */,
 				C97702161AB6BEA4006BC435 /* Setting(设置) */,
+				C97702361AB7080F006BC435 /* UIImage+Extension.h */,
+				C97702371AB7080F006BC435 /* UIImage+Extension.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -169,6 +190,8 @@
 		C97702061AB6BEA4006BC435 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C97702201AB6FAD8006BC435 /* KGHomeViewController.h */,
+				C97702211AB6FAD8006BC435 /* KGHomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -200,6 +223,8 @@
 		C977020A1AB6BEA4006BC435 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C977021D1AB6F9CF006BC435 /* KGTabBarViewController.h */,
+				C977021E1AB6F9CF006BC435 /* KGTabBarViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -231,6 +256,8 @@
 		C977020E1AB6BEA4006BC435 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C97702231AB6FAFC006BC435 /* KGMessageViewController.h */,
+				C97702241AB6FAFC006BC435 /* KGMessageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -271,6 +298,8 @@
 		C97702131AB6BEA4006BC435 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C97702261AB6FB20006BC435 /* KGProfileViewController.h */,
+				C97702271AB6FB20006BC435 /* KGProfileViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -314,6 +343,39 @@
 			sourceTree = "<group>";
 		};
 		C97702191AB6BEA4006BC435 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C97702291AB70578006BC435 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				C977022A1AB70578006BC435 /* Controller */,
+				C977022B1AB70578006BC435 /* Model */,
+				C977022C1AB70578006BC435 /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		C977022A1AB70578006BC435 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C977022D1AB70596006BC435 /* KGDiscoverViewController.h */,
+				C977022E1AB70596006BC435 /* KGDiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C977022B1AB70578006BC435 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C977022C1AB70578006BC435 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -416,8 +478,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C977022F1AB70596006BC435 /* KGDiscoverViewController.m in Sources */,
 				C977021C1AB6BEF3006BC435 /* KGAppDelegate.m in Sources */,
+				C97702221AB6FAD8006BC435 /* KGHomeViewController.m in Sources */,
+				C977021F1AB6F9CF006BC435 /* KGTabBarViewController.m in Sources */,
+				C97702251AB6FAFC006BC435 /* KGMessageViewController.m in Sources */,
 				C97701E21AB6BE8E006BC435 /* main.m in Sources */,
+				C97702281AB6FB20006BC435 /* KGProfileViewController.m in Sources */,
+				C97702381AB7080F006BC435 /* UIImage+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,6 +682,7 @@
 				C97702001AB6BE8E006BC435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C97702011AB6BE8E006BC435 /* Build configuration list for PBXNativeTarget "KGWeiboTests" */ = {
 			isa = XCConfigurationList;
@@ -622,6 +691,7 @@
 				C97702031AB6BE8E006BC435 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
