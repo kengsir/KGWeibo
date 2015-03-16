@@ -6,12 +6,14 @@
 //  Copyright (c) 2015年 kengsir. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import "KGAppDelegate.h"
 
 @implementation KGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
