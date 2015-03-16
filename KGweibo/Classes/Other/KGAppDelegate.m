@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "KGAppDelegate.h"
+#import "KGTabBarViewController.h"
 
 @implementation KGAppDelegate
 
@@ -16,7 +17,11 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    // 添加控制器
+    KGTabBarViewController *tabVc = [[KGTabBarViewController alloc]init];
+    self.window.rootViewController = tabVc;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

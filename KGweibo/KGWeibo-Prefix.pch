@@ -13,6 +13,17 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+// 测试用log
+ #ifdef DEBUG
+     #define KGWLog(...) NSLog(__VA_ARGS__)
+ #else
+     #define KGWLog(...)
+#endif
+
+
 // 判别是否iOS7或以上版本系统
 #define iOS7 ([UIDevice currentDevice].systemVersion.doubleValue >= 7.0)
+
+
 #endif
