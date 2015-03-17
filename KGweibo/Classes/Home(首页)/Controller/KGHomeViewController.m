@@ -7,6 +7,7 @@
 //
 
 #import "KGHomeViewController.h"
+#import "UIBarButtonItem+Extension.h"
 
 @interface KGHomeViewController ()
 
@@ -27,15 +28,27 @@
 {
     [super viewDidLoad];
     
+
+
+// 添加左边导航栏控制器按钮
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"navigationbar_friendsearch"        hightlightedImage:@"navigationbar_friendsearch_highlighted" target:self selector:@selector(searchFriend)];
     
+// 添加右边导航栏按钮
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithImage:@"navigationbar_pop" hightlightedImage:@"navigationbar_pop_highlighted" target:self selector:@selector(pop)];
 }
 
-- (void)didReceiveMemoryWarning
+// barbuttonItem (left) 方法
+- (void)searchFriend
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    KGWLog(@"searchFriend");
 }
 
+-(void)pop
+{
+     KGWLog(@"pop");
+}
+
+                                                                                                                                                                                    
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView

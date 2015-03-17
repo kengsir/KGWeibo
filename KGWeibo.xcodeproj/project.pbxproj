@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C8AD4B9C1AB745E200AEDC68 /* KGNavgationMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AD4B9B1AB745E200AEDC68 /* KGNavgationMainController.m */; };
 		C9741A3F1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C9741A3E1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.m */; };
+		C9741A421AB8615900E1B3F6 /* KGNavgationBarTittleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C9741A411AB8615900E1B3F6 /* KGNavgationBarTittleButton.m */; };
 		C97701D61AB6BE8E006BC435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97701D51AB6BE8E006BC435 /* Foundation.framework */; };
 		C97701D81AB6BE8E006BC435 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97701D71AB6BE8E006BC435 /* CoreGraphics.framework */; };
 		C97701DA1AB6BE8E006BC435 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97701D91AB6BE8E006BC435 /* UIKit.framework */; };
@@ -44,6 +45,8 @@
 		C8AD4B9B1AB745E200AEDC68 /* KGNavgationMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGNavgationMainController.m; path = "KGweibo/Classes/Main(主要)/Controller/KGNavgationMainController.m"; sourceTree = SOURCE_ROOT; };
 		C9741A3D1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		C9741A3E1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		C9741A401AB8615900E1B3F6 /* KGNavgationBarTittleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNavgationBarTittleButton.h; sourceTree = "<group>"; };
+		C9741A411AB8615900E1B3F6 /* KGNavgationBarTittleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGNavgationBarTittleButton.m; sourceTree = "<group>"; };
 		C97701D21AB6BE8E006BC435 /* KGWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97701D51AB6BE8E006BC435 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C97701D71AB6BE8E006BC435 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -214,6 +217,8 @@
 		C97702081AB6BEA4006BC435 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C9741A401AB8615900E1B3F6 /* KGNavgationBarTittleButton.h */,
+				C9741A411AB8615900E1B3F6 /* KGNavgationBarTittleButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -497,6 +502,7 @@
 				C97701E21AB6BE8E006BC435 /* main.m in Sources */,
 				C97702281AB6FB20006BC435 /* KGProfileViewController.m in Sources */,
 				C8AD4B9C1AB745E200AEDC68 /* KGNavgationMainController.m in Sources */,
+				C9741A421AB8615900E1B3F6 /* KGNavgationBarTittleButton.m in Sources */,
 				C97702381AB7080F006BC435 /* UIImage+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

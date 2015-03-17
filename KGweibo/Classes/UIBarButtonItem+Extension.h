@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIBarButtonItem (Extension)
-+ (instancetype)itemWithImage : 
++ (instancetype)itemWithImage : (NSString *)imageName hightlightedImage:(NSString *)hightlightedImageName target :(id)target selector:(SEL)selector;
+
 @end
