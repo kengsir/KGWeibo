@@ -8,16 +8,36 @@
 
 #import "KGStatusCell.h"
 
+
 @implementation KGStatusCell
 
-- (void)awakeFromNib {
-    // Initialization code
+-(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    
+    if (self =  [super initWithStyle:style reuseIdentifier:reuseIdentifier]) { // 初始化子控件开始
+        // 初始化内容控件
+        [self setupStatusContentView];
+        
+        // 初始化工具条控件
+        [self setupToolbar];
+    }
+    
+    return self;
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+// 初始化内容控件
+-(void)setupStatusContentView
+{   
+    KGStatusContentView *statusContentView = [[KGStatusContentView alloc]init];
+    self.statusContentView = statusContentView;
+    [self.contentView addSubview:statusContentView];
 }
 
+ // 初始化工具条控件
+-(void)setupToolbar
+{
+    KGStatusToolbar *toolBar = [[KGStatusToolbar alloc]init];
+    self.toolbarView = toolBar;
+    [self.contentView addSubview:toolBar];
+}
 @end

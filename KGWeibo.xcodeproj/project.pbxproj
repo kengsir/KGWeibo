@@ -13,6 +13,8 @@
 		C8DD11A01AB88B1E004A9D5D /* KGStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DD119F1AB88B1E004A9D5D /* KGStatusCell.m */; };
 		C9741A3F1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C9741A3E1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.m */; };
 		C9741A421AB8615900E1B3F6 /* KGNavgationBarTittleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C9741A411AB8615900E1B3F6 /* KGNavgationBarTittleButton.m */; };
+		C9741A451AB9877000E1B3F6 /* KGStatusContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9741A441AB9877000E1B3F6 /* KGStatusContentView.m */; };
+		C9741A481AB9878A00E1B3F6 /* KGStatusToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = C9741A471AB9878A00E1B3F6 /* KGStatusToolbar.m */; };
 		C97701D61AB6BE8E006BC435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97701D51AB6BE8E006BC435 /* Foundation.framework */; };
 		C97701D81AB6BE8E006BC435 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97701D71AB6BE8E006BC435 /* CoreGraphics.framework */; };
 		C97701DA1AB6BE8E006BC435 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97701D91AB6BE8E006BC435 /* UIKit.framework */; };
@@ -56,6 +58,10 @@
 		C9741A3E1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		C9741A401AB8615900E1B3F6 /* KGNavgationBarTittleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNavgationBarTittleButton.h; sourceTree = "<group>"; };
 		C9741A411AB8615900E1B3F6 /* KGNavgationBarTittleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGNavgationBarTittleButton.m; sourceTree = "<group>"; };
+		C9741A431AB9877000E1B3F6 /* KGStatusContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGStatusContentView.h; sourceTree = "<group>"; };
+		C9741A441AB9877000E1B3F6 /* KGStatusContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGStatusContentView.m; sourceTree = "<group>"; };
+		C9741A461AB9878A00E1B3F6 /* KGStatusToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGStatusToolbar.h; sourceTree = "<group>"; };
+		C9741A471AB9878A00E1B3F6 /* KGStatusToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGStatusToolbar.m; sourceTree = "<group>"; };
 		C97701D21AB6BE8E006BC435 /* KGWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97701D51AB6BE8E006BC435 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C97701D71AB6BE8E006BC435 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -150,6 +156,10 @@
 			children = (
 				C8DD119E1AB88B1E004A9D5D /* KGStatusCell.h */,
 				C8DD119F1AB88B1E004A9D5D /* KGStatusCell.m */,
+				C9741A431AB9877000E1B3F6 /* KGStatusContentView.h */,
+				C9741A441AB9877000E1B3F6 /* KGStatusContentView.m */,
+				C9741A461AB9878A00E1B3F6 /* KGStatusToolbar.h */,
+				C9741A471AB9878A00E1B3F6 /* KGStatusToolbar.m */,
 			);
 			name = cell;
 			sourceTree = "<group>";
@@ -548,10 +558,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9741A451AB9877000E1B3F6 /* KGStatusContentView.m in Sources */,
 				C977022F1AB70596006BC435 /* KGDiscoverViewController.m in Sources */,
 				C977021C1AB6BEF3006BC435 /* KGAppDelegate.m in Sources */,
 				C97702221AB6FAD8006BC435 /* KGHomeViewController.m in Sources */,
 				C977021F1AB6F9CF006BC435 /* KGTabBarViewController.m in Sources */,
+				C9741A481AB9878A00E1B3F6 /* KGStatusToolbar.m in Sources */,
 				C9741A3F1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.m in Sources */,
 				C97702251AB6FAFC006BC435 /* KGMessageViewController.m in Sources */,
 				C97701E21AB6BE8E006BC435 /* main.m in Sources */,
