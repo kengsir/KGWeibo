@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C8AD4B9C1AB745E200AEDC68 /* KGNavgationMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8AD4B9B1AB745E200AEDC68 /* KGNavgationMainController.m */; };
+		C8DD11991AB8886E004A9D5D /* kAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DD11951AB8886E004A9D5D /* kAuthController.m */; };
+		C8DD119A1AB8886E004A9D5D /* kAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DD11981AB8886E004A9D5D /* kAccount.m */; };
+		C8DD11A01AB88B1E004A9D5D /* KGStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DD119F1AB88B1E004A9D5D /* KGStatusCell.m */; };
 		C9741A3F1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C9741A3E1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.m */; };
 		C9741A421AB8615900E1B3F6 /* KGNavgationBarTittleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C9741A411AB8615900E1B3F6 /* KGNavgationBarTittleButton.m */; };
 		C97701D61AB6BE8E006BC435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97701D51AB6BE8E006BC435 /* Foundation.framework */; };
@@ -43,6 +46,12 @@
 /* Begin PBXFileReference section */
 		C8AD4B9A1AB745E200AEDC68 /* KGNavgationMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGNavgationMainController.h; path = "KGweibo/Classes/Main(主要)/Controller/KGNavgationMainController.h"; sourceTree = SOURCE_ROOT; };
 		C8AD4B9B1AB745E200AEDC68 /* KGNavgationMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGNavgationMainController.m; path = "KGweibo/Classes/Main(主要)/Controller/KGNavgationMainController.m"; sourceTree = SOURCE_ROOT; };
+		C8DD11941AB8886E004A9D5D /* kAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kAuthController.h; sourceTree = "<group>"; };
+		C8DD11951AB8886E004A9D5D /* kAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kAuthController.m; sourceTree = "<group>"; };
+		C8DD11971AB8886E004A9D5D /* kAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kAccount.h; sourceTree = "<group>"; };
+		C8DD11981AB8886E004A9D5D /* kAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kAccount.m; sourceTree = "<group>"; };
+		C8DD119E1AB88B1E004A9D5D /* KGStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGStatusCell.h; path = "KGweibo/Classes/Home(首页)/View/KGStatusCell.h"; sourceTree = SOURCE_ROOT; };
+		C8DD119F1AB88B1E004A9D5D /* KGStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGStatusCell.m; path = "KGweibo/Classes/Home(首页)/View/KGStatusCell.m"; sourceTree = SOURCE_ROOT; };
 		C9741A3D1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		C9741A3E1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		C9741A401AB8615900E1B3F6 /* KGNavgationBarTittleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNavgationBarTittleButton.h; sourceTree = "<group>"; };
@@ -101,6 +110,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C8DD11921AB8886E004A9D5D /* OAuth(授权) */ = {
+			isa = PBXGroup;
+			children = (
+				C8DD119C1AB8889D004A9D5D /* View */,
+				C8DD11931AB8886E004A9D5D /* Controller */,
+				C8DD11961AB8886E004A9D5D /* Model */,
+			);
+			path = "OAuth(授权)";
+			sourceTree = "<group>";
+		};
+		C8DD11931AB8886E004A9D5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C8DD11941AB8886E004A9D5D /* kAuthController.h */,
+				C8DD11951AB8886E004A9D5D /* kAuthController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C8DD11961AB8886E004A9D5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8DD11971AB8886E004A9D5D /* kAccount.h */,
+				C8DD11981AB8886E004A9D5D /* kAccount.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C8DD119C1AB8889D004A9D5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C8DD119D1AB88AED004A9D5D /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				C8DD119E1AB88B1E004A9D5D /* KGStatusCell.h */,
+				C8DD119F1AB88B1E004A9D5D /* KGStatusCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
 		C97701C91AB6BE8E006BC435 = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +226,7 @@
 		C97702041AB6BEA4006BC435 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C8DD11921AB8886E004A9D5D /* OAuth(授权) */,
 				C97702291AB70578006BC435 /* Discover(发现) */,
 				C97702051AB6BEA4006BC435 /* Home(首页) */,
 				C97702091AB6BEA4006BC435 /* Main(主要) */,
@@ -217,6 +271,7 @@
 		C97702081AB6BEA4006BC435 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C8DD119D1AB88AED004A9D5D /* cell */,
 				C9741A401AB8615900E1B3F6 /* KGNavgationBarTittleButton.h */,
 				C9741A411AB8615900E1B3F6 /* KGNavgationBarTittleButton.m */,
 			);
@@ -502,7 +557,10 @@
 				C97701E21AB6BE8E006BC435 /* main.m in Sources */,
 				C97702281AB6FB20006BC435 /* KGProfileViewController.m in Sources */,
 				C8AD4B9C1AB745E200AEDC68 /* KGNavgationMainController.m in Sources */,
+				C8DD11991AB8886E004A9D5D /* kAuthController.m in Sources */,
 				C9741A421AB8615900E1B3F6 /* KGNavgationBarTittleButton.m in Sources */,
+				C8DD11A01AB88B1E004A9D5D /* KGStatusCell.m in Sources */,
+				C8DD119A1AB8886E004A9D5D /* kAccount.m in Sources */,
 				C97702381AB7080F006BC435 /* UIImage+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
