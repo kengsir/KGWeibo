@@ -11,6 +11,8 @@
 		C8DD11991AB8886E004A9D5D /* kAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DD11951AB8886E004A9D5D /* kAuthController.m */; };
 		C8DD119A1AB8886E004A9D5D /* kAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DD11981AB8886E004A9D5D /* kAccount.m */; };
 		C8DD11A01AB88B1E004A9D5D /* KGStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8DD119F1AB88B1E004A9D5D /* KGStatusCell.m */; };
+		C8E5019D1ABB10DD009517EB /* KGStatusContentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E5019C1ABB10DD009517EB /* KGStatusContentFrame.m */; };
+		C8E501A01ABB1B75009517EB /* KGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E5019F1ABB1B75009517EB /* KGUser.m */; };
 		C9741A3F1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C9741A3E1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.m */; };
 		C9741A421AB8615900E1B3F6 /* KGNavgationBarTittleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C9741A411AB8615900E1B3F6 /* KGNavgationBarTittleButton.m */; };
 		C9741A451AB9877000E1B3F6 /* KGStatusContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9741A441AB9877000E1B3F6 /* KGStatusContentView.m */; };
@@ -36,7 +38,6 @@
 		C9D9CCC71ABA6EFB000060EF /* KGWStatusOriginalView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D9CCC61ABA6EFB000060EF /* KGWStatusOriginalView.m */; };
 		C9D9CCCA1ABA6F0A000060EF /* KGWStatusRetweetedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D9CCC91ABA6F0A000060EF /* KGWStatusRetweetedView.m */; };
 		C9D9CCD11ABA72CA000060EF /* KGStatusFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D9CCD01ABA72CA000060EF /* KGStatusFrame.m */; };
-		C9D9CCD41ABA72E7000060EF /* KGStatusContentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D9CCD31ABA72E7000060EF /* KGStatusContentFrame.m */; };
 		C9D9CCD71ABA7309000060EF /* KGStatusToolbarFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D9CCD61ABA7309000060EF /* KGStatusToolbarFrame.m */; };
 		C9D9CCDA1ABA735D000060EF /* KGStatusOriginalFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D9CCD91ABA735D000060EF /* KGStatusOriginalFrame.m */; };
 		C9D9CCDD1ABA738B000060EF /* KGStatusRetweetedFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D9CCDC1ABA738B000060EF /* KGStatusRetweetedFrame.m */; };
@@ -71,6 +72,10 @@
 		C8DD11981AB8886E004A9D5D /* kAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kAccount.m; sourceTree = "<group>"; };
 		C8DD119E1AB88B1E004A9D5D /* KGStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGStatusCell.h; path = "KGweibo/Classes/Home(首页)/View/KGStatusCell.h"; sourceTree = SOURCE_ROOT; };
 		C8DD119F1AB88B1E004A9D5D /* KGStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGStatusCell.m; path = "KGweibo/Classes/Home(首页)/View/KGStatusCell.m"; sourceTree = SOURCE_ROOT; };
+		C8E5019B1ABB10DD009517EB /* KGStatusContentFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGStatusContentFrame.h; path = "KGweibo/Classes/Home(首页)/Model/KGStatusContentFrame.h"; sourceTree = SOURCE_ROOT; };
+		C8E5019C1ABB10DD009517EB /* KGStatusContentFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGStatusContentFrame.m; path = "KGweibo/Classes/Home(首页)/Model/KGStatusContentFrame.m"; sourceTree = SOURCE_ROOT; };
+		C8E5019E1ABB1B75009517EB /* KGUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGUser.h; path = "KGweibo/Classes/Home(首页)/Model/KGUser.h"; sourceTree = SOURCE_ROOT; };
+		C8E5019F1ABB1B75009517EB /* KGUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGUser.m; path = "KGweibo/Classes/Home(首页)/Model/KGUser.m"; sourceTree = SOURCE_ROOT; };
 		C9741A3D1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		C9741A3E1AB84C6C00E1B3F6 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		C9741A401AB8615900E1B3F6 /* KGNavgationBarTittleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNavgationBarTittleButton.h; sourceTree = "<group>"; };
@@ -113,8 +118,6 @@
 		C9D9CCC91ABA6F0A000060EF /* KGWStatusRetweetedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGWStatusRetweetedView.m; sourceTree = "<group>"; };
 		C9D9CCCF1ABA72CA000060EF /* KGStatusFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGStatusFrame.h; sourceTree = "<group>"; };
 		C9D9CCD01ABA72CA000060EF /* KGStatusFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGStatusFrame.m; sourceTree = "<group>"; };
-		C9D9CCD21ABA72E7000060EF /* KGStatusContentFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGStatusContentFrame.h; sourceTree = "<group>"; };
-		C9D9CCD31ABA72E7000060EF /* KGStatusContentFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGStatusContentFrame.m; sourceTree = "<group>"; };
 		C9D9CCD51ABA7309000060EF /* KGStatusToolbarFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGStatusToolbarFrame.h; sourceTree = "<group>"; };
 		C9D9CCD61ABA7309000060EF /* KGStatusToolbarFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGStatusToolbarFrame.m; sourceTree = "<group>"; };
 		C9D9CCD81ABA735D000060EF /* KGStatusOriginalFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGStatusOriginalFrame.h; sourceTree = "<group>"; };
@@ -334,6 +337,8 @@
 				C9D9CCCB1ABA7289000060EF /* cell */,
 				C9D9CCDE1ABA77FF000060EF /* KGStatus.h */,
 				C9D9CCDF1ABA77FF000060EF /* KGStatus.m */,
+				C8E5019E1ABB1B75009517EB /* KGUser.h */,
+				C8E5019F1ABB1B75009517EB /* KGUser.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -527,14 +532,14 @@
 			children = (
 				C9D9CCCF1ABA72CA000060EF /* KGStatusFrame.h */,
 				C9D9CCD01ABA72CA000060EF /* KGStatusFrame.m */,
-				C9D9CCD21ABA72E7000060EF /* KGStatusContentFrame.h */,
-				C9D9CCD31ABA72E7000060EF /* KGStatusContentFrame.m */,
 				C9D9CCD51ABA7309000060EF /* KGStatusToolbarFrame.h */,
 				C9D9CCD61ABA7309000060EF /* KGStatusToolbarFrame.m */,
 				C9D9CCD81ABA735D000060EF /* KGStatusOriginalFrame.h */,
 				C9D9CCD91ABA735D000060EF /* KGStatusOriginalFrame.m */,
 				C9D9CCDB1ABA738B000060EF /* KGStatusRetweetedFrame.h */,
 				C9D9CCDC1ABA738B000060EF /* KGStatusRetweetedFrame.m */,
+				C8E5019B1ABB10DD009517EB /* KGStatusContentFrame.h */,
+				C8E5019C1ABB10DD009517EB /* KGStatusContentFrame.m */,
 			);
 			name = cell;
 			sourceTree = "<group>";
@@ -669,14 +674,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E501A01ABB1B75009517EB /* KGUser.m in Sources */,
 				C9D9CD221ABAB003000060EF /* AFURLRequestSerialization.m in Sources */,
-				C9D9CCD41ABA72E7000060EF /* KGStatusContentFrame.m in Sources */,
 				C9741A451AB9877000E1B3F6 /* KGStatusContentView.m in Sources */,
 				C9D9CCD11ABA72CA000060EF /* KGStatusFrame.m in Sources */,
 				C9D9CCE01ABA77FF000060EF /* KGStatus.m in Sources */,
 				C9D9CD211ABAB003000060EF /* AFURLConnectionOperation.m in Sources */,
 				C9D9CCC71ABA6EFB000060EF /* KGWStatusOriginalView.m in Sources */,
 				C9D9CCD71ABA7309000060EF /* KGStatusToolbarFrame.m in Sources */,
+				C8E5019D1ABB10DD009517EB /* KGStatusContentFrame.m in Sources */,
 				C977022F1AB70596006BC435 /* KGDiscoverViewController.m in Sources */,
 				C9D9CCDA1ABA735D000060EF /* KGStatusOriginalFrame.m in Sources */,
 				C977021C1AB6BEF3006BC435 /* KGAppDelegate.m in Sources */,
