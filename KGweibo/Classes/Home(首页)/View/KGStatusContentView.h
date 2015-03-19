@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KGWStatusOriginalView.h"
+#import "KGWStatusRetweetedView.h"
 
 @interface KGStatusContentView : UIView
+ /** 原创内容 */
+ @property(nonatomic, weak) KGWStatusOriginalView *originalView;
 
+ /** 转发内容 */
+ @property(nonatomic, weak) KGWStatusRetweetedView *retweetedView;
 @end

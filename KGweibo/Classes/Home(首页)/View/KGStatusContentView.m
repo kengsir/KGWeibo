@@ -4,7 +4,7 @@
 //
 //  Created by mob on 15/3/18.
 //  Copyright (c) 2015年 kengsir. All rights reserved.
-//
+//  微博内容view （包含原创view 和 转发view）
 
 #import "KGStatusContentView.h"
 
@@ -14,18 +14,27 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
+        // 初始化原创内容控件
+        [self setupOriginalView];
+      
+        // 初始化转发内容控件
+        [self setupRetweetedView];
     }
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+ /** 初始化原创内容控件 */
+- (void) setupOriginalView
 {
-    // Drawing code
-}
-*/
+   
+    
+ }
 
+
+/** 初始化转发内容控件 */
+- (void) setupRetweetedView
+{
+    
+    
+}
 @end

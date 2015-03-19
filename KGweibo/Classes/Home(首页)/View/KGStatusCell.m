@@ -4,7 +4,7 @@
 //
 //  Created by Kengsir on 3/18/15.
 //  Copyright (c) 2015 kengsir. All rights reserved.
-//
+//  微博的主体view （包含微博主体 和 工具条）
 
 #import "KGStatusCell.h"
 
